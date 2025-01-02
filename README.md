@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <a href="https://nextjs.org/" target="blank"><img src="https://nextjs.org/static/favicon/android-chrome-192x192.png" width="120" alt="Next.js Logo" /></a>
+</p>
 
-## Getting Started
+# TechLead Frontend
 
-First, run the development server:
+TechLead Frontend es una aplicación web desarrollada con Next.js, diseñada para proporcionar una interfaz de usuario interactiva y eficiente para la gestión de tareas y usuarios.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Requisitos Previos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Node.js**: Asegúrate de tener Node.js instalado en tu máquina. Puedes descargarlo desde [nodejs.org](https://nodejs.org/).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instalación
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clonar el repositorio**:
 
-## Learn More
+   ```bash
+   git clone https://github.com/FresentHell/techlead-frontend.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Navegar al directorio del proyecto**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd techlead-frontend
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Instalar las dependencias**:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Ejecución
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Iniciar el servidor de desarrollo**:
+
+   ```bash
+   npm run dev
+   ```
+
+   La aplicación estará disponible en `http://localhost:3000`.
+
+
+## Despliegue
+
+Para desplegar la aplicación, sigue estos pasos:
+
+1. **Construir la aplicación**:
+
+   ```bash
+   npm run build
+   ```
+
+2. **Iniciar la aplicación en modo producción**:
+
+   ```bash
+   npm run start
+   ```
+
+## Recursos Adicionales
+
+- [Documentación de Next.js](https://nextjs.org/docs)
+- [Guía Interactiva de Next.js](https://nextjs.org/learn)
+- [Repositorio de Next.js en GitHub](https://github.com/vercel/next.js)
+
+## Contribuciones
+
+Si deseas contribuir al proyecto:
+
+1. **Fork** al repositorio.
+2. Crea una **rama** para tu funcionalidad o corrección:
+
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+
+3. Realiza un **commit** de tus cambios:
+
+   ```bash
+   git commit -m "Agrega nueva funcionalidad"
+   ```
+
+4. Haz un **push** a tu rama:
+
+   ```bash
+   git push origin feature/nueva-funcionalidad
+   ```
+
+5. Abre un **Pull Request**.
