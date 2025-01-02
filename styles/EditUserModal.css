@@ -1,0 +1,139 @@
+/* Modal */
+.edit-user-modal {
+    max-width: 650px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Título del modal */
+  .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* Inputs */
+  .input-field {
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Contenedor de tareas */
+  .task-add-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .task-table-container {
+    margin-top: 20px;
+  }
+  
+  /* Botón de agregar tarea */
+  .add-task-button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 15px;
+  }
+  
+  .add-task-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Tabla de tareas */
+  .task-table-container .task-input {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .task-status {
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  .task-status[data-status="Pendiente"] {
+    background-color: #FFC107; /* Amarillo */
+  }
+  
+  .task-status[data-status="En Progreso"] {
+    background-color: #17A2B8; /* Azul */
+  }
+  
+  .task-status[data-status="Completada"] {
+    background-color: #28A745; /* Verde */
+  }
+  
+  /* Botones de acciones */
+  .delete-task-button {
+    color: #E53935;
+  }
+  
+  /* Notificaciones */
+  .snackbar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333333;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  .snackbar.success {
+    background-color: #4CAF50; /* Verde */
+  }
+  
+  .snackbar.error {
+    background-color: #E53935; /* Rojo */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-50%) translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  
+  /* Botones principales */
+  .cancel-button {
+    background-color: #E53935;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .cancel-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .save-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  

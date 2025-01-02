@@ -1,0 +1,120 @@
+/* AddUserModal.css */
+
+.add-user-modal {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    overflow-y: auto;
+  }
+  
+  .add-user-modal h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  .input-field input,
+  .input-field textarea {
+    font-size: 16px;
+  }
+  
+  .task-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .task-list {
+    margin-top: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-item-title {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .task-item-description {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .add-task-button {
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-task-button:hover {
+    background-color: #155a9c;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .save-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .add-user-modal {
+      width: 90%;
+      padding: 15px;
+    }
+  }
+
+  
+  

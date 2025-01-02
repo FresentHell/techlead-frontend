@@ -1,0 +1,250 @@
+/* Contenedor de la página */
+.page-container {
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Título de la página */
+.page-title {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #4a4a4a;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Botones superiores */
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-user-button {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #6a11cb; 
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-user-button:hover {
+  background-color: #4b009c; /* Púrpura más oscuro al pasar el mouse */
+}
+
+/* Botones superiores */
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-user-button {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #6a11cb; /* Color púrpura */
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-user-button:hover {
+  background-color: #4b009c; /* Púrpura más oscuro al pasar el mouse */
+  transform: scale(1.05);
+}
+
+/* Botones superiores */
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-user-button {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #6a11cb; /* Color púrpura sólido */
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-user-button:hover {
+  background-color: #4b009c; /* Púrpura más oscuro al pasar el mouse */
+}
+
+/* Botones superiores */
+.status-filter-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter-select,
+.pagination-select {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #4a4a4a;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.filter-select:hover,
+.pagination-select:hover {
+  border-color: #6a11cb; /* Bordes púrpuras al pasar el mouse */
+}
+
+.filter-helper-text {
+  font-size: 12px;
+  color: #555;
+  font-style: italic;
+}
+
+
+/* Tabla */
+.table-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.table-header th {
+  padding: 1rem;
+  text-align: left;
+  color: #ffffff;
+}
+
+.table-row {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+.table-row:hover {
+  background-color: #e9ecef;
+}
+
+/* Celdas */
+.table-cell {
+  padding: 1rem;
+  font-size: 14px;
+  color: #4a4a4a;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Botones */
+.edit-button {
+  color: #6a11cb !important;
+}
+
+.view-button {
+  color: #28a745 !important;
+}
+
+.delete-button {
+  color: #dc3545 !important;
+}
+
+/* Tareas */
+.task-title {
+  font-weight: bold;
+  color: #333333;
+}
+
+.task-description {
+  color: #6c757d;
+  font-size: 12px;
+  margin-top: 0.2rem;
+}
+
+.task-chip {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.task-chip.pending {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+.task-chip.in-progress {
+  background-color: #17a2b8;
+  color: #ffffff;
+}
+
+.task-chip.completed {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+/* Paginación */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.pagination-button {
+  padding: 0.5rem 1.5rem;
+  background-color: #6a11cb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-button:hover {
+  background-color: #2575fc;
+}
+
+.pagination-button:disabled {
+  background-color: #b8daff;
+  cursor: not-allowed;
+}
+
+.pagination-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #6a11cb;
+  margin: 0 1rem;
+}

@@ -1,0 +1,87 @@
+.modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 600px;
+    padding: 24px;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .close-button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .close-button:hover {
+    background-color: #b71c1c;
+  }
+  
+  .modal-text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .modal-subtitle {
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #222;
+  }
+  
+  .table-container {
+    margin-top: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table-header {
+    background-color: #1976d2;
+  }
+  
+  .table-header-cell {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px;
+  }
+  
+  .table-row {
+    &:nth-of-type(even) {
+      background-color: #f9f9f9;
+    }
+    &:hover {
+      background-color: #f1f1f1;
+    }
+  }
+  
+  .task-status {
+    font-weight: bold;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
